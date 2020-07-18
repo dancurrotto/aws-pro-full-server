@@ -6,5 +6,5 @@ displayname 'install aws cli'
 
 steps:
 - bash: |
-  echo 'Configuring aws cli...'
-displayname 'configure aws cli'
+    echo 'Configuring aws cli...'
+  displayname 'configure aws cli'
