@@ -8,4 +8,4 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-  template: 'common-build-templates/aws-cli-install.yml'
+  template: 'common-build-templates/aws-cli-install.yml@templates'
