@@ -1,14 +1,6 @@
 steps:
 - bash: |
   echo 'Installing aws cli...'
-  /*
-  curl -O https://bootstrap.pypa.io/get-pip.py
-  python3 get-pip.py --user
-  export PATH="/home/vsts/.local/bin:$PATH"
-  pip3 --version
-  pip3 install awscli --upgrade --user
-  echo 'Installing aws cli complete'*/
-
 displayname 'install aws cli'
 
 
